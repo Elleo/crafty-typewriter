@@ -25,7 +25,6 @@
 	"jsfiddle" : "http://jsfiddle.net/zalun/NmudS/embedded/", 
 	"homepage": "https://github.com/Elleo/crafty-typewriter",
 	"files": [
-		"src/license.txt"
 		"src/crafty-typewriter.js"
 	]
 }
