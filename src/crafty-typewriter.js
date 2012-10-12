@@ -31,7 +31,7 @@ Crafty.c("Typewriter", {
 	* @example
 	* ~~~
 	* Crafty.audio.add("typekey", [
-	* 	"audio/effects/typewriter_key.ogg"
+	* 	"audio/typewriter_key.ogg"
 	* ]);
 	* Crafty.e("2D, DOM, Typewriter").attr({w: 100, h: 20, x: 200, y: 280})
 	* 	.write("Hello World!", "typekey", 200, 100);
