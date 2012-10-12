@@ -1,0 +1,31 @@
+{
+	"name": "crafty-typewriter",
+	"version": "1.0",
+	"title": "Crafty Typewriter Plugin",
+	"author": {
+		"name": "Mike Sheldon",
+		"url": "http://www.mikeasoft.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		},
+		{
+			"type": "GPL",
+			"url": "http://www.opensource.org/licenses/gpl-license.php"
+		}
+	],
+	"description": "Writes out a string of text one character at a time in the style of a typewriter, with optional audio effects.",
+	"keywords": [
+		"crafty",
+		"typewriter",
+		"javascript"
+	],
+	"jsfiddle" : "http://jsfiddle.net/zalun/NmudS/embedded/", 
+	"homepage": "https://github.com/Elleo/crafty-typewriter",
+	"files": [
+		"src/license.txt"
+		"src/crafty-typewriter.js"
+	]
+}
