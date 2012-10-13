@@ -39,11 +39,11 @@ Crafty.c("Typewriter", {
 	*/
 	write : function(sentence, keysound, maxkeytime, minkeytime) {
 		keydiff = maxkeytime - minkeytime
-		for(var i = 1 ; i < sentence.length; i++) {
+		for(var i = 1 ; i < sentence.length + 1; i++) {
 			this.delay(function() {
 				if(sentence.substr(this._l - 1, this._l).match(/\n/)) {
 					sentence = sentence.substr(0, this._l) + "<br />" + sentence.substr(this._l + 1, sentence.length - 1);
-					this._l += 6;
+					this._l += 5;
 				}
 				Crafty.audio.play(keysound);
 				this.text(sentence.substr(0, this._l));
