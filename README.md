@@ -14,7 +14,7 @@ Example
 	Crafty.init(640, 480);
 
 	Crafty.audio.add("typekey", [
-               "http://github.com/Elleo/crafty-typewriter/raw/master/audio/typewriter_key.ogg"
+		"http://github.com/Elleo/crafty-typewriter/raw/master/audio/typewriter_key.ogg"
 	]);
 	
 	Crafty.e("2D, DOM, Typewriter")
