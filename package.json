@@ -22,7 +22,7 @@
 		"typewriter",
 		"javascript"
 	],
-	"jsfiddle" : "http://jsfiddle.net/zalun/NmudS/embedded/", 
+	"jsfiddle" : "http://jsfiddle.net/Elleo/zNWQB/embedded/", 
 	"homepage": "https://github.com/Elleo/crafty-typewriter",
 	"files": [
 		"src/crafty-typewriter.js"
