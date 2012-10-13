@@ -11,12 +11,16 @@ Particularly suited for use alongside fonts such as GNUTypewriter: http://openfo
 Example
 -------
 
+	Crafty.init(640, 480);
+
 	Crafty.audio.add("typekey", [
-		"audio/effects/typewriter_key.ogg"
+               "http://github.com/Elleo/crafty-typewriter/raw/master/audio/typewriter_key.ogg"
 	]);
 	
-	Crafty.e("2D, DOM, Typewriter").attr({w: 100, h: 20, x: 200, y: 280})
-		.write("Hello World!", "typekey", 200, 100);
+	Crafty.e("2D, DOM, Typewriter")
+		.attr({w: 200, x: 10, y: 10})
+		.css({"font-family" : "Courier New"})
+		.write("Hello World!", "typekey", 250, 150);
 
 
 License
